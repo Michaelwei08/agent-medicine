@@ -1,0 +1,6 @@
+{
+  "name": "agent-medicine-sandbox",
+  "private": true,
+  "type": "module",
+  "description": "Marks web/assets/*.js as ES modules so tools/node_harness.mjs can import them under Node. Not shipped to the site."
+}

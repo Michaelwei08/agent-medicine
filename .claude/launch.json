@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "tools/serve_site.py",
+        "--port",
+        "4173"
+      ],
+      "cwd": "D:/Stanford/research/own/personal_website",
+      "port": 4173
+    },
+    {
+      "name": "site-verify",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "tools/serve_site.py",
+        "--port",
+        "4174"
+      ],
+      "cwd": "D:/Stanford/research/own/personal_website",
+      "port": 4174
+    }
+  ]
+}
